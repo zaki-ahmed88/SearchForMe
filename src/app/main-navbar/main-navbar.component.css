@@ -1,0 +1,67 @@
+.box-shadow-menu {
+    position: relative;
+    padding-left: 1.25em;
+}
+
+.box-shadow-menu:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    width: 1.5em;
+    height: 0.15em;
+    background: black;
+    box-shadow: 0 0.25em 0 0 black, 0 0.5em 0 0 black;
+    margin-top: 3px;
+}
+
+.box-shadow-menu span {
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+.blue {
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+}
+
+.cyan {
+    background-color: rgb(0, 255, 221);
+    text-align: center;
+}
+
+.lang {
+    width: 100px;
+}
+
+
+
+/*
+.navbar-nav .mr-auto  .nav-item .nav-link i {
+  background: var(--dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  float: left;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 0.6rem;
+  color: var(--light);
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+
+
+}
+ */
+
+
+
+
